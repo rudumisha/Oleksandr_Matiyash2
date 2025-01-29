@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Rubik+Gemstones&family=Rubik+Iso&family=Tektur:wght@400..900&display=swap');
+body {
+    background-color:#5D4F84;
+     font-family: "Tektur", serif;
+    margin: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6E4980;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header {
+    background-color: #4E5C81;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: "Tektur", serif;
+}
+
+p {
+    font-size: 20px;
+    margin: 0; /* Виправляємо великі відступи */
+}
+
+/* Контейнер для замовлень */
+.order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Відстань між блоками */
+}
+
+/* Окремий блок замовлення */
+.order {
+    display: flex;
+    align-items: center;
+    background-color: #717C9B;
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Червоні квадрати */
+.kvadrat, .kvadrat2, .kvadrat3 {
+    width: 76px;
+    height: 71px;
+    background-color: red;
+    margin-right: 20px; /* Відступ справа, щоб текст не прилипав */
+}
+
+/* Головний блок */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 40px; /* Зменшено padding */
+}
+
+/* Футер */
+footer {
+    background-color: #58316A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer span {
+    color: lightgreen;
+    font-size: 30px;
+}
