@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Rubik+Gemstones&family=Rubik+Iso&family=Tektur:wght@400..900&display=swap');
+body {
+    background-color: #5D4F84;
+
+    margin: 0;
+  font-family: "Tektur", serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6E4980;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header {
+    background-color: #A9A1BE;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+   font-family: "Tektur", serif;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Контейнер для карток */
+.menusec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Центрує картки */
+    gap: 20px; /* Відступ між картками */
+    max-width: 800px; /* Обмеження ширини для двох карток в ряд */
+    margin: 0 auto; /* Центрування */
+}
+
+/* Стилі для карток */
+.menu, .menu2, .menu3, .menu4 {
+    width: 45%; /* Дві картки в ряд */
+    background-color: #717C9B;
+    padding: 20px;
+    
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Картинки в картках */
+.menu img, .menu2 img, .menu3 img, .menu4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h3 {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #6E4980;
+    color: white;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #6E4980;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #FFD700; /* Жовтий колір для посилань */
+    text-decoration: none;
+}
+
+
